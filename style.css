@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
-    background-color: rgba(20, 20, 20);
-    color: rgba(255, 255, 255)
-   
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 #logo {
@@ -10,8 +12,16 @@
     margin: 2rem 2rem;
 }
 
+#info-left1 {
+    background-image: url();
+    background-attachment: fixed;
+    background-position: 0px 20rem;
+    background-repeat: no-repeat;
+}
+
 #logo, #menu {
     display: inline-block;
+
 }
 
 button {
@@ -38,65 +48,83 @@ p, h1, h2, h3{
 
 .info-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    gap: 2rem;
-    font-family: 'Times New Roman', Times, serif;
+    grid-template-columns: 1fr;
+    font-family: Arial, Helvetica, sans-serif;
     background: transparent;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
 }
 
 .red-word {
-    color: rgba(219, 134, 134, 0.658);
+    color: rgba(219, 134, 134);
     background: transparent;
 }
 
 #info-right {
-    justify-content: center;
+   
     display: flex;
     flex-direction: column;
-    align-items: center;
+
+    background: transparent;
+    margin-left: 2rem
     
+   
+}
+
+#title-learn {
+    color: rgb(151, 192, 155);
+    font-size: larger;
+}
+
+.header-learn {
+    color: rgb(201, 207, 112);
+    text-align: center;
+    font-size: x-large;
+}
+
+
+#info-right, #info-left1, #info-left2, #info-right2 {
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px 20rem;
+   
 }
 
 #info-left1 {
     display: flex;
-    background: transparent;
-    background: transparent;
     justify-content: center;
     flex-direction: column;
-    background-image: url(https://smallsat.uga.edu/images/ssrl.svg);
-    background-repeat: no-repeat;
-  
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 #info-left2 {
     display: flex;
-    
+    background: transparent;
     justify-content: center;
     flex-direction: column;
+    margin-right: 2rem;
    
     
 }
 
 #info-right2 {
-    text-indent: 0%;
+
     justify-content: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-  
+    margin-left: 2rem;
+    background: transparent;
 }
 
 #info-left3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background: transparent;
    
-    
 }
 
 #info-right3 {
@@ -105,18 +133,21 @@ p, h1, h2, h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+    background: transparent;
 }
 
 .large-text {
-    /* align text*/
+    background: transparent;
     
   
 }
+
+
 
 footer {
     margin-top: 1rem;
     text-align: center;
     font-size: small;
+    background: transparent;
 }
 
