@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: rgb(232, 198, 138);
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -9,7 +9,9 @@
 
 #logo {
     width: 10rem;
-    margin: 2rem 2rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 #info-left1 {
@@ -21,22 +23,10 @@
 
 #logo, #menu {
     display: inline-block;
-
+    margin-left: 0.75rem;
 }
 
-button {
-    background-color: transparent;
-    border: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-button:hover {
-    opacity: 25%;
-}
-
-button:focus {
-    background-color: black;
-}
 
 #title-learn {
     text-align: center;
@@ -57,8 +47,10 @@ p, h1, h2, h3{
 }
 
 .red-word {
-    color: rgba(219, 134, 134);
+    color: rgb(223, 146, 146);
     background: transparent;
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 #info-right {
@@ -75,12 +67,15 @@ p, h1, h2, h3{
 #title-learn {
     color: rgb(151, 192, 155);
     font-size: larger;
+    text-decoration: underline;
 }
 
 .header-learn {
-    color: rgb(201, 207, 112);
+    color: rgb(0, 0, 0);
     text-align: center;
-    font-size: x-large;
+    font-size:  35px;
+    background-color: rgb(159, 188, 159);
+
 }
 
 
@@ -92,13 +87,7 @@ p, h1, h2, h3{
    
 }
 
-#info-left1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
+
 
 #info-left2 {
     display: flex;
@@ -142,12 +131,75 @@ p, h1, h2, h3{
   
 }
 
+#header {
+    background: black;
+    position: absolute;
+    padding-top: 25px;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 2rem;
+    padding-right: 59.4696%;
+    padding-bottom: 0.75rem;
+    width: 100%;
+}
 
+
+
+#info-left1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-size: 100% 100%;
+    background-color: rgb(19, 47, 52);
+    /*background-image: url(https://static.vecteezy.com/system/resources/previews/025/448/688/non_2x/starry-space-seamless-pattern-sky-stars-in-galaxy-vector.jpg);
+    */border-bottom-left-radius: 50px;
+    background-repeat: repeat;
+    border-bottom-right-radius: 50px;
+    top: 4rem;
+    margin-top: 2rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+}
+
+html, body{
+    background-color: rgb(202, 158, 104);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSotJhy3zXs2WUa2S70yZ6VD4rXNUXJv8YtQQ&s)
+}
 
 footer {
-    margin-top: 1rem;
     text-align: center;
-    font-size: small;
+    font-size: x-large;
     background: transparent;
 }
 
+#about-info {
+    margin: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+/* button settings */
+button {
+    background-color: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    opacity: 25%;
+}
+
+button:focus {
+    background-color: black;
+}
